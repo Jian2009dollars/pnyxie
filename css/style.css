@@ -1,0 +1,439 @@
+:root{
+    --maroon:#FF0000;
+}
+
+
+* {
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 44.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    Text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153,.05);
+}
+
+.heading span{
+    Color:#710c04;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:#710c04;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #fff;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-size: 5rem;
+    color: #333;
+    font-weight: bolder;
+ 
+}
+
+header .logo span{
+    color:#FF0000;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color:#710c04;
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color:#710c04;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size:3rem;
+    color:#333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor:pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+    
+}
+
+.home{
+    display:flex;
+    align-items:center;
+    min-height: 100vh;
+    background:url('Marcos2.jpg') no-repeat;
+    background-size: cover;
+    background-position:100%;
+    flex: 1 1 100rem;
+    font-size: 4rem;
+    background-color: #800000;
+   
+}
+
+
+.home .content{
+    max-width: 130rem;
+}
+
+.home .content h1 {
+    font-size: 7rem;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home .content span{
+    font-size: 4rem;
+    color:#BC544B;
+    padding:1rem 0;
+    line-height: 1.5;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.home .content p{
+    font-size: 3rem;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 1.5;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.Significance .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap:wrap;
+    padding:40rem 0;
+    padding-bottom: 3rem;
+}
+
+.Significance .row .content{
+    flex: 1 1 40rem;
+    font-size: 4rem;
+}
+
+.Significance .row .Voting{
+    flex:1 1 40rem;
+    position:relative;
+}
+
+.Significance .row .Voting .img{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height:100%;
+    object-fit: cover;
+}
+
+.Significance .row .content p{
+    font-size: 3rem;
+    color: #666;
+    padding:.2rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.Significance .row .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
+
+.Characteristics .row{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    flex-wrap:wrap;
+    padding:30rem 0;
+    padding-bottom: 3rem;
+}
+
+.Characteristics .row .content{
+    flex: 40 1 1;
+    font-size: 3rem;
+}
+
+.Characteristics .row .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
+.Characteristics .row .content ul{
+    font-size: 3rem;
+    color: #666;
+    padding:.2rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    padding-bottom: 30rem;
+
+}
+
+.Characteristics .row .img{
+    flex:1 1 40rem;
+    position: relative;
+    padding-top: 5rem;
+}
+
+.Characteristics .row .Voting .img{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding-top: 5rem;
+}
+
+
+.How .row{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap:wrap;
+    padding:30rem 0;
+    padding-bottom: 30rem;
+}
+
+.How .row .content{
+    flex: 1 1 40;
+    font-size: 3rem;
+}
+
+.How .row .choosing{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.How .row .choosing .img{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.How .row .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
+.How .row .content ul{
+    font-size: 2.4rem;
+    color: #666;
+    padding:.2rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+----------------
+
+.steps .row{
+    display: flex;
+    align-items: center;
+    gap: 30rem;
+    flex-wrap:wrap;
+    padding:60rem 0;
+    padding-bottom: 3rem;
+}
+
+.steps .row .content{
+    flex: 1 1 40;
+    font-size: 3rem;
+}
+
+.steps .row .choosing{
+    flex:1 1 40rem;
+    position: relative;
+    padding-top: 5rem;
+}
+
+.steps .row .choosing .img{
+    width: 100%;
+    border: 3rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding-top: 5rem;
+}
+
+.steps .row .content h3{
+    font-size: 3rem;
+    color:#333;
+    padding-top: 5rem;
+}
+
+.steps .row .content p{
+    font-size: 2rem;
+    color: #666;
+    padding:.2rem 0;
+    padding-top: 2rem;
+    line-height: 1.5;
+    padding-bottom: 10rem;
+}
+
+------------------
+
+.everyone .row{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap:wrap;
+    padding:70rem 0;
+    padding-bottom: 10rem;
+}
+
+.everyone .row .content{
+    flex: 1 1 40;
+    font-size: 3rem;
+}
+
+.everyone .row .choosing{
+    flex:1 1 40rem;
+    position: relative;
+
+}
+
+.everyone .row .every .img{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding-top: 20rem;
+}
+
+.everyone .row .content h3{
+    font-size: 4rem;
+    color:#000000;
+    padding-top: 5rem;
+}
+
+.everyone .row .content p{
+    font-size: 3rem;
+    color: #666;
+    padding:.2rem 0;
+    padding-top: 5rem;
+    line-height: 1.5;
+    padding-bottom: 10rem;
+}
+   
+
+
+
+
+
+
+
+@media (max-width:991px){
+    html{
+        font-size: 40%;
+    }
+
+    header{
+        padding:2rem;
+    }
+    
+    section{
+        padding:2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
+
+}
+
+@media (max-width:768px){
+    header .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background: #eee;
+        border-top: 1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%) ;
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    .home .content h1{
+        font-size: 5rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 40%;
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+
+    header{
+        padding:.2rem;
+    }
+}
